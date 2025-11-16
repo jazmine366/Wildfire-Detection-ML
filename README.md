@@ -33,6 +33,7 @@ This project builds and compares machine learning models to classify **fire vs n
 
 **Summary:**  
 Predicts “fire” almost every time → accuracy looks good but recall for class 0 is extremely poor. Meaning model doesn't really learn the pattern rather it just outputs fire.
+
 ---
 
 ### **Model 2 — Random Forest BEST MODEL (class_weight="balanced")**
@@ -43,6 +44,7 @@ Predicts “fire” almost every time → accuracy looks good but recall for cla
 **Summary:**  
 Best performing model. Handles imbalance well and significantly improves no fire detection. 
 Recall > Accuracy in importance, visualize by classification report, confusion matrixs
+
 ---
 
 ### **Model 3 — Neural Network (MLP)**
